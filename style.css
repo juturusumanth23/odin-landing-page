@@ -115,15 +115,17 @@ h2 {
 }
 
 .call-to-action {
-    margin: 48px;
+    margin: 48px auto;
     padding: 36px;
     background-color: #3882f6;
+    width: 750px;
     font-size: 24px;
     color: #fff;
     border-radius: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 .call-to-action button {
