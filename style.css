@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -28,7 +31,7 @@ ul {
 
 .hero button {
     padding: 8px 42px;
-    background-color: blue;
+    background-color: #3882f6;
     margin-top: 8px;
     border: none;
     border-radius: 10px;
@@ -55,4 +58,58 @@ a {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     color: white;
     padding: 0 32px 24px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.flashcards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 50px;
+}
+
+.flashcard p {
+    width: 160px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882f6;
+    border-radius: 10%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.quote p, .quote .text {
+    padding: 0;
+    margin: 0;
+    width: 830px;
+}
+.quote .text {
+    text-align: end;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    padding-right: 100px;
 }
