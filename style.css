@@ -109,7 +109,36 @@ h2 {
 .quote .text {
     text-align: end;
     font-style: normal;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 24px;
     padding-right: 100px;
 }
+
+.call-to-action {
+    margin: 48px;
+    padding: 36px;
+    background-color: #3882f6;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 24px;
+}
+
+.call-to-action button, .sign-up {
+    font-size: 18px;
+}
+
+.call-to-action .cta-text {
+    font-weight: bold;
+}
+
