@@ -8,19 +8,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 8px;
-    margin-bottom: 24px;
+    margin: 0 auto 80px;
+    width: 900px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 8px;
+    gap: 32px;
 }
 .hero {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    width: 900px;
 }
 .hero img {
     background-color: #666;
@@ -57,7 +59,8 @@ a {
     background-color: #1f2937;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     color: white;
-    padding: 0 32px 24px;
+    padding-top: 18px;
+    padding-bottom: 80px;
 }
 
 h2 {
